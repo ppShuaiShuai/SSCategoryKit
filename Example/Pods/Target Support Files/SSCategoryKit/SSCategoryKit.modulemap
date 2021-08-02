@@ -1,0 +1,6 @@
+framework module SSCategoryKit {
+  umbrella header "SSCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SSCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of SSCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangshuai5/SSCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangshuai5": "zhangshuai5@staff.weibo.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangshuai5/SSCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SSCategoryKit/Classes/**/*"
+}
