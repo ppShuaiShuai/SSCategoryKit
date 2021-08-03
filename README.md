@@ -22,7 +22,7 @@ pod 'SSCategoryKit'
 
 ## Author
 
-zhangshuai5, zhangshuai5@staff.weibo.com
+zhangss, ty_zhangshuai@163.com
 
 ## License
 
