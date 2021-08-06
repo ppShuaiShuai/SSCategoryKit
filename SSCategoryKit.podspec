@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSCategoryKit'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'SSCategoryKit - 常用分类'
 
 # This description is used to generate tags and improve search results.
