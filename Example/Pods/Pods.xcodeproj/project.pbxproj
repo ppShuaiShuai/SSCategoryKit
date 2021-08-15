@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0FB18B5DD15BC39F77E4A5626D4784E3 /* SSCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A2F207E491150A0735015CEF99033C /* SSCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3364155D26B7CDCC00A20A60 /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3364155B26B7CDCC00A20A60 /* UIView+Tap.m */; };
-		3364155E26B7CDCC00A20A60 /* UIView+Tap.h in Headers */ = {isa = PBXBuildFile; fileRef = 3364155C26B7CDCC00A20A60 /* UIView+Tap.h */; };
 		63F265222916966BB90FA35200173572 /* Pods-SSCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9C41E36358DE679E1626AE1CF4D09F /* Pods-SSCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6683189326C977250039DB61 /* UIColor+SSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6683188B26C977250039DB61 /* UIColor+SSKit.h */; };
+		6683189426C977250039DB61 /* NSString+SSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6683188C26C977250039DB61 /* NSString+SSKit.h */; };
+		6683189526C977250039DB61 /* UIColor+SSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6683188D26C977250039DB61 /* UIColor+SSKit.m */; };
+		6683189626C977250039DB61 /* UIView+SSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6683188E26C977250039DB61 /* UIView+SSKit.h */; };
+		6683189726C977250039DB61 /* UIView+SSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6683188F26C977250039DB61 /* UIView+SSKit.m */; };
+		6683189826C977250039DB61 /* NSString+SSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6683189026C977250039DB61 /* NSString+SSKit.m */; };
+		6683189926C977250039DB61 /* NSDateFormatter+SSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6683189126C977250039DB61 /* NSDateFormatter+SSKit.m */; };
+		6683189A26C977250039DB61 /* NSDateFormatter+SSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6683189226C977250039DB61 /* NSDateFormatter+SSKit.h */; };
 		6E3E1933B59748A7BDDB035D3635FFAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A1F0AF6E5C3280393223EBDAEE67B995 /* SSCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4536322D4A151BF853845FD0B95E9A92 /* SSCategoryKit-dummy.m */; };
 		EA4ED881221EEE2960E51FE2FDE1169F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -32,11 +38,17 @@
 		121BCBB99B73B3A2DE4FDF41255857B3 /* SSCategoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSCategoryKit.release.xcconfig; sourceTree = "<group>"; };
 		2755B3EC1C0C59988CEF4A865B44B1A0 /* Pods-SSCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		32199542F08D9A20CF15E492E952FCA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3364155B26B7CDCC00A20A60 /* UIView+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Tap.m"; path = "SSCategoryKit/Classes/UIView+Tap.m"; sourceTree = "<group>"; };
-		3364155C26B7CDCC00A20A60 /* UIView+Tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Tap.h"; path = "SSCategoryKit/Classes/UIView+Tap.h"; sourceTree = "<group>"; };
 		44BB4D3134C500BE43EA115709C9E166 /* Pods_SSCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4536322D4A151BF853845FD0B95E9A92 /* SSCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		45D5C5D5341A7C0E062A30D6B47A8CD8 /* Pods-SSCategoryKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSCategoryKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6683188B26C977250039DB61 /* UIColor+SSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+SSKit.h"; path = "SSCategoryKit/Classes/UIColor+SSKit.h"; sourceTree = "<group>"; };
+		6683188C26C977250039DB61 /* NSString+SSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SSKit.h"; path = "SSCategoryKit/Classes/NSString+SSKit.h"; sourceTree = "<group>"; };
+		6683188D26C977250039DB61 /* UIColor+SSKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SSKit.m"; path = "SSCategoryKit/Classes/UIColor+SSKit.m"; sourceTree = "<group>"; };
+		6683188E26C977250039DB61 /* UIView+SSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SSKit.h"; path = "SSCategoryKit/Classes/UIView+SSKit.h"; sourceTree = "<group>"; };
+		6683188F26C977250039DB61 /* UIView+SSKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SSKit.m"; path = "SSCategoryKit/Classes/UIView+SSKit.m"; sourceTree = "<group>"; };
+		6683189026C977250039DB61 /* NSString+SSKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SSKit.m"; path = "SSCategoryKit/Classes/NSString+SSKit.m"; sourceTree = "<group>"; };
+		6683189126C977250039DB61 /* NSDateFormatter+SSKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+SSKit.m"; path = "SSCategoryKit/Classes/NSDateFormatter+SSKit.m"; sourceTree = "<group>"; };
+		6683189226C977250039DB61 /* NSDateFormatter+SSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+SSKit.h"; path = "SSCategoryKit/Classes/NSDateFormatter+SSKit.h"; sourceTree = "<group>"; };
 		6906C37E29E8DA6883BCEF8C70136781 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69ACF1C1A2262D3BFA771A0B53B4AAAB /* Pods-SSCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6EAD9668FBE4C8A53407B4BCC89D15EC /* Pods-SSCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -153,8 +165,14 @@
 		CEB8E37DDBA149813E93EE1E67562E96 /* SSCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				3364155C26B7CDCC00A20A60 /* UIView+Tap.h */,
-				3364155B26B7CDCC00A20A60 /* UIView+Tap.m */,
+				6683189226C977250039DB61 /* NSDateFormatter+SSKit.h */,
+				6683189126C977250039DB61 /* NSDateFormatter+SSKit.m */,
+				6683188C26C977250039DB61 /* NSString+SSKit.h */,
+				6683189026C977250039DB61 /* NSString+SSKit.m */,
+				6683188B26C977250039DB61 /* UIColor+SSKit.h */,
+				6683188D26C977250039DB61 /* UIColor+SSKit.m */,
+				6683188E26C977250039DB61 /* UIView+SSKit.h */,
+				6683188F26C977250039DB61 /* UIView+SSKit.m */,
 				9158EF98B2A5A0BAB273293555295818 /* Pod */,
 				8658C2943D368CEBCE76263CBFB02924 /* Support Files */,
 			);
@@ -197,7 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F265222916966BB90FA35200173572 /* Pods-SSCategoryKit_Tests-umbrella.h in Headers */,
-				3364155E26B7CDCC00A20A60 /* UIView+Tap.h in Headers */,
+				6683189326C977250039DB61 /* UIColor+SSKit.h in Headers */,
+				6683189626C977250039DB61 /* UIView+SSKit.h in Headers */,
+				6683189426C977250039DB61 /* NSString+SSKit.h in Headers */,
+				6683189A26C977250039DB61 /* NSDateFormatter+SSKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3364155D26B7CDCC00A20A60 /* UIView+Tap.m in Sources */,
 				FA73AFB5F818D1AE0920F8C0BAB9A302 /* Pods-SSCategoryKit_Tests-dummy.m in Sources */,
+				6683189926C977250039DB61 /* NSDateFormatter+SSKit.m in Sources */,
+				6683189826C977250039DB61 /* NSString+SSKit.m in Sources */,
+				6683189526C977250039DB61 /* UIColor+SSKit.m in Sources */,
+				6683189726C977250039DB61 /* UIView+SSKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
